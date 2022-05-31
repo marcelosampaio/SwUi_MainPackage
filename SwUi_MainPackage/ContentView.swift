@@ -6,11 +6,22 @@
 //
 
 import SwiftUI
+import RainbowView
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 0) {
+            Color.pink100
+            Color.pink200
+            Color.pink300
+            Color.pink400
+            Color.pink500
+            Color.pink600
+            Color.pink700
+            Color.pink800
+            Color.pink900
+        }.ignoresSafeArea()
+        
     }
 }
 

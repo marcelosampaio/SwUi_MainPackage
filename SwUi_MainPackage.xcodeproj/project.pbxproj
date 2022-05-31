@@ -11,6 +11,7 @@
 		2DDE7E0428463BDF000B7A8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDE7E0328463BDF000B7A8A /* ContentView.swift */; };
 		2DDE7E0628463BE2000B7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDE7E0528463BE2000B7A8A /* Assets.xcassets */; };
 		2DDE7E0928463BE2000B7A8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDE7E0828463BE2000B7A8A /* Preview Assets.xcassets */; };
+		2DDE7E14284645D0000B7A8A /* RainbowView in Frameworks */ = {isa = PBXBuildFile; productRef = 2DDE7E13284645D0000B7A8A /* RainbowView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2DDE7E0328463BDF000B7A8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DDE7E0528463BE2000B7A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDE7E0828463BE2000B7A8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DDE7E1128463EFC000B7A8A /* RainbowView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RainbowView; path = ../../RainbowView; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDE7E14284645D0000B7A8A /* RainbowView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +40,7 @@
 			children = (
 				2DDE7E0028463BDF000B7A8A /* SwUi_MainPackage */,
 				2DDE7DFF28463BDF000B7A8A /* Products */,
+				2DDE7E12284645D0000B7A8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +55,7 @@
 		2DDE7E0028463BDF000B7A8A /* SwUi_MainPackage */ = {
 			isa = PBXGroup;
 			children = (
+				2DDE7E1128463EFC000B7A8A /* RainbowView */,
 				2DDE7E0128463BDF000B7A8A /* SwUi_MainPackageApp.swift */,
 				2DDE7E0328463BDF000B7A8A /* ContentView.swift */,
 				2DDE7E0528463BE2000B7A8A /* Assets.xcassets */,
@@ -65,6 +70,13 @@
 				2DDE7E0828463BE2000B7A8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DDE7E12284645D0000B7A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = SwUi_MainPackage;
+			packageProductDependencies = (
+				2DDE7E13284645D0000B7A8A /* RainbowView */,
+			);
 			productName = SwUi_MainPackage;
 			productReference = 2DDE7DFE28463BDF000B7A8A /* SwUi_MainPackage.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +354,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DDE7E13284645D0000B7A8A /* RainbowView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RainbowView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DDE7DF628463BDF000B7A8A /* Project object */;
 }
